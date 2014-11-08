@@ -1,0 +1,6 @@
+<%= simple_form_for @project do |f| %>
+	<%= f.input :title %>
+	<%= f.input :description, :as => :text, :label => false, :input_html => {:class => "redactor"}%>
+	<%= f.input :misc_html, :as => :text, :label => false, :input_html => {:class => "redactor"}%>
+	<%= f.button :submit %>
+<% end %>

@@ -3,3 +3,6 @@
 <%= @project.description.html_safe %>
 <hr>
 <%= @project.misc_html.html_safe %>
+<hr>
+<hr>
+<%= link_to 'Edit', edit_project_path(@project) %> | <%= link_to 'Index', projects_path %>
