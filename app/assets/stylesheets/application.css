@@ -13,5 +13,4 @@
  *= require_tree .
  *= require_self
  *= require redactor-rails
- *= require s3_direct_upload_progress_bars
  */

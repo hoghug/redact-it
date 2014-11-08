@@ -39,5 +39,5 @@ gem 'figaro'
 gem 'unf'
 gem 'fog', '~> 1.22.0'
 gem 'aws-sdk'
-gem 's3_direct_upload', :git => 'git://github.com/waynehoover/s3_direct_upload.git' # CORS and Drag & drop
+# gem 's3_direct_upload', :git => 'git://github.com/waynehoover/s3_direct_upload.git' # CORS and Drag & drop
 

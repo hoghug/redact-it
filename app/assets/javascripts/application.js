@@ -15,4 +15,3 @@
 //= require turbolinks
 //= require_tree .
 //= require redactor-rails
-//= require s3_direct_upload
