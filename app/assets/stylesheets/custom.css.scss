@@ -1,0 +1,14 @@
+.redactor_toolbar {
+
+
+	li {
+		
+		&.redactor_separator, & .redactor_btn_formatting, & .redactor_btn_deleted, 
+		& .redactor_btn_outdent, & .redactor_btn_indent, & .redactor_btn_file, & .redactor_btn_video,
+		& .redactor_btn_table, & .redactor_btn_alignment, & .redactor_btn_horizontalrule {
+			display: none;
+		}
+
+	}
+
+}

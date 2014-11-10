@@ -6,15 +6,18 @@
 	<%= f.input :description, :as => :text, :label => false, :input_html => {id: 'redactor1', :class => "redactor"}%>
 	<br>
 	<%= f.input :misc_html, :as => :text, :label => false, :input_html => {id: 'redactor2', :class => "redactor"}%>
-	
+	<br>
 	<%= f.button :submit %>
 <% end %>
 
 
-<script type="text/javascript">
-	// $('#redactor2').redactor({
-	// 	s3: ,
-	// 	linebreaks: true,
-	//   buttons: ['html', 'bold', 'italic', 'unorderedlist', 'orderedlist', 'image', 'link']
-	// });
-</script>
+
+
+<br>
+<hr>
+<br>
+<ul>
+<% @projects.each do |project| %>
+	<li><%= link_to project.title, project %></li>
+<% end %>
+</ul>
